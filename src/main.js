@@ -1,5 +1,4 @@
 import API from "./api.js";
-
 import BoardComponent from "./components/board.js";
 import BoardController from "./controllers/board.js";
 import FilterController from "./controllers/filter.js";
@@ -8,7 +7,7 @@ import StatisticsComponent from "./components/statistics.js";
 import TasksModel from "./model/tasks.js";
 import {render, RenderPosition} from "./utils/render.js";
 
-const AUTHORIZATION = `Basic dgtlckBwYXNzd29yZAo=`;
+const AUTHORIZATION = `Basic dXNlckBwYHHzd29yZAo=`;
 const END_POINT = `https://11.ecmascript.pages.academy/task-manager`;
 
 const dateTo = new Date();
